@@ -1,0 +1,64 @@
+:root {
+  --color-gray-300: #d5e1ef;
+  --color-gray-400: #68778d;
+  --color-gray-500: #1f314f;
+  --color-white-400: #ffffff;
+}
+
+html {
+  font-size: 62.5% !important;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Outfit';
+  src: url('../fonts/Outfit.ttf');
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+  color: var(--color-gray-400);
+  background-color: var(--color-gray-300);
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  padding: 2.4rem;
+}
+
+h3 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 120%;
+  color: var(--color-gray-500);
+}
+
+.card {
+  text-align: center;
+  background-color: var(--color-white-400);
+  max-width: 32rem;
+  padding: 1.6rem;
+  padding-bottom: 4rem;
+  border-radius: 2rem;
+  box-shadow: 0 2.5rem 2.5rem 0 rgb(0 0 0 / 5%);
+}
+
+.card-img {
+  width: 100%;
+  margin-bottom: 2.4rem;
+  border-radius: 1rem;
+}
+
+.card-title {
+  margin-bottom: 1.6rem;
+}
